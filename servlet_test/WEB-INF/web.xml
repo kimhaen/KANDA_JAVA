@@ -1,0 +1,81 @@
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>/view/index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>
+			ListServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.ListServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			ListServletMapping
+		</servlet-name>
+		<url-pattern>
+			/list
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>
+			InsertServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.InsertServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			InsertServletMapping
+		</servlet-name>
+		<url-pattern>
+			/insert
+		</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>
+			DeleteServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.DeleteServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			DeleteServletMapping
+		</servlet-name>
+		<url-pattern>
+			/delete
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>
+			SearchServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.SearchServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			SearchServletMapping
+		</servlet-name>
+		<url-pattern>
+			/search
+		</url-pattern>
+	</servlet-mapping>
+
+
+
+
+</web-app>
+
+
+
