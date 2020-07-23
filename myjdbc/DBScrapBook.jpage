@@ -1,0 +1,1 @@
+DELETE FROM bookinfo WHERE isbn = '00006' OR isbn = '00007';
