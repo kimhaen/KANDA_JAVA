@@ -1,0 +1,117 @@
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>/view/main.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>
+			LoginServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.LoginServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			LoginServletMapping
+		</servlet-name>
+		<url-pattern>
+			/login
+		</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+			<servlet-name>
+			ListServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.ListServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			ListServletMapping
+		</servlet-name>
+		<url-pattern>
+			/list
+		</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+		<servlet-name>
+			ContactServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.ContactServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			ContactServletMapping
+		</servlet-name>
+		<url-pattern>
+			/contact
+		</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+		<servlet-name>
+			ReplyServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.ReplyServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			ReplyServletMapping
+		</servlet-name>
+		<url-pattern>
+			/reply
+		</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+		<servlet-name>
+			ReplyOkServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.ReplyOkServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			ReplyOkServletMapping
+		</servlet-name>
+		<url-pattern>
+			/replyok
+		</url-pattern>
+	</servlet-mapping>
+
+
+			<servlet>
+		<servlet-name>
+			MailSendServletMapping
+		</servlet-name>
+		<servlet-class>
+			servlet.MailSendServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>
+			MailSendServletMapping
+		</servlet-name>
+		<url-pattern>
+			/mailSend
+		</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>
+
+
+
